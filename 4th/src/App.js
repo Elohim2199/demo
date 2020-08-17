@@ -19,5 +19,15 @@ class App extends Component {
         );
     }
 }
+class App2 extends App {
+    render() {
+        return (
+            <div>
+                <App />
+                <p>I park it in Garage</p>
+            </div>
+            )
+    }
+}
 
-export default App;
+export default App2;
